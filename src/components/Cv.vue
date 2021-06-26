@@ -12,6 +12,7 @@
         <Experience :data="cv.education" title="Education"></Experience>
         <Experience :data="cv.experience" title="Experience"></Experience>
         <Experience :data="cv.volunteer" title="Volunteer Experience"></Experience>
+        
 
     </v-container>
 </template>
@@ -20,10 +21,12 @@
 import Axios from "axios";
 import Experience from "./Experience";
 
+
 export default {
     name: "cv",
     components: {
         Experience
+        
     },
     data: function() {
         return {

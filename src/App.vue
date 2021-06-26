@@ -24,11 +24,8 @@
 
       <a href="https://github.com/anamhira47" target="_blank"><v-icon>mdi-github</v-icon></a>
       <a href="https://www.linkedin.com/in/anam-h-5b37a2125/" target="_blank"><v-icon>mdi-linkedin</v-icon></a>
-      <a href="https://www.instagram.com/anamhira47/" target="_blank"><v-icon>mdi-instagram</v-icon></a>
       <a href="mailto:hira.anam49@gmail.com" target="_blank"><v-icon>mdi-email</v-icon></a>
-      <v-avatar right>
-        <img src="./assets/avatar.jpg" />
-      </v-avatar>
+      
     </v-app-bar>
 
     <v-main>
@@ -38,7 +35,7 @@
     </v-main>
 
     <v-footer app>
-      <span>Anam Hira &copy; 2020</span>
+      <span>Anam Hira &copy; 2021</span>
     </v-footer>
   </v-app>
 </template>
