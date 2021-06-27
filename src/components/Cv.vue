@@ -5,7 +5,7 @@
             <v-col align="stretch">
                 <h2>{{cv.name}}</h2>
                 <p>{{cv.bio}}</p>
-                <a target="_blank" href="/data/cv.json"><v-btn color="green darken-4" >Download Resume</v-btn></a>
+                <a target="_blank" href="/data/resume.pdf"><v-btn color="green darken-4" >Download Resume</v-btn></a>
             </v-col>
         </v-row>
 
