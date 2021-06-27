@@ -41,6 +41,41 @@
             "avatar": "./logos/ubc.jpg"
         }
     ],
+    "projects": [
+        {
+            "title": "Recursive Barbell Trading Bot",
+            "link": "https://github.com/anamhira47/Recursive-Barbell",
+            "name": "Personal Project",
+            "description": "Recursive Barbell Trading Strategy bot, based on fractal risk taking. Inspired by the barbell strategy outlined by Nassim Taleb in his book series Incerto. Utilizes a multitude of AWS services including AWS lambda, API gateway, SQS, SNS to create a highly available and fault tolerant system with minimal operational overhead.",
+            "from": "May 2021"
+
+
+        },
+        {
+            "title": "Cryptocurrency Portfolio Management System",
+            "name": "Personal Project",
+            "description": "Crypto portoflio management made in Java which includes a GUI and live prices, utilizing APIs of exchanges. Utilizing GSON and JSON to attain persistence within the project. Aswell as Javafx to create a GUI",
+            "from": "March 2020",
+            "link": "https://github.com/anamhira47/portfolio-manager"
+        },
+        {
+            "title": "Fitness Log Track App",
+            "name": "Personal Project",
+            "description": "Fitness login training android app, to train the movements you do on a daily basis, and ensure progressive overload. Using android studio and java to create a comprehensive CRUD app.",
+            "from": "June 2020",
+            "link": "https://github.com/anamhira47/APTFitnessTracker"
+
+        },
+        {
+            "title": "Web Based Material Design SSH Login",
+            "name": "Personal Project",
+            "description": "A SSH login built in PHP allowing you to access the terminal of the VPS which the website is hosted on, built with google’s material design principles.",
+            "from": "Dec 2017",
+            "link": "https://github.com/anamhira47/Web-SSH-With-Login"
+        }
+
+    ],
+
     "volunteer": [
         {
             "name": "Developer",

@@ -11,7 +11,11 @@
 
         <Experience :data="cv.education" title="Education"></Experience>
         <Experience :data="cv.experience" title="Experience"></Experience>
+        <Experience :data="cv.projects" title="Projects"></Experience>
         <Experience :data="cv.volunteer" title="Volunteer Experience"></Experience>
+        
+        
+
         
 
     </v-container>
@@ -34,7 +38,8 @@ export default {
                 name: "",
                 bio: "",
                 experience: [],
-                education: []
+                education: [],
+                projects: []
             }
         };
     },

@@ -6,7 +6,9 @@
         <v-list-item-title class="headline mb-1">{{company.title}}</v-list-item-title>
         <v-list-item-subtitle>{{company.name}}</v-list-item-subtitle>
         <v-list-item-subtitle>{{company.location}}</v-list-item-subtitle>
+        
         <v-list-item-content class="line-break">{{company.description}}</v-list-item-content>
+        <v-btn v-if="typeof company.link !== 'undefined'" color="green darken-4" :href="company.link" target="_blank">Source code</v-btn>
       </v-list-item-content>
 
       <v-list-item-avatar v-if="company.avatar" tile :size="imageSize" color="grey">
@@ -26,8 +28,9 @@ export default {
             name: String,
             location: String,
             description: String,
-            avatar: String
-        }
+            avatar: String,
+            link: String
+      }
     },
     computed: {
         imageSize: function(){
