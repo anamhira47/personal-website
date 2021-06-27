@@ -79,13 +79,8 @@ export default {
         url: "/projects",
         icon: "mdi-briefcase-outline",
         count: 0
-      },
-      {
-        name: "Resume",
-        url: "/resume",
-        icon: "mdi-cv",
-        count: 0
       }
+      
     ],
     cv: {}
   }),
