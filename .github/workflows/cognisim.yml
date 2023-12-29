@@ -1,10 +1,28 @@
-- uses: actions/checkout@v3
-  with:
-    fetch-depth: 0
+name: Continuous Integration
 
-- name: Run tests using CogniSim
-  uses: CogniSim/cognisim-tests@v1
-  env:
-    COGNISIM_API_KEY: ${{ secrets.COGNISIM_API_KEY }}
-  with:
-    test-id: 82f11f56-810d-4de1-9d13-69e6d4f60c58
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  test-cognisim:
+    name: Run tests using CogniSim
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Run CogniSim Tests
+        uses: CogniSim/cognisim-tests@v1
+        env:
+          COGNISIM_API_TOKEN: ${{ secrets.COGNISIM_API_KEY }}
+        with:
+          test-id: 82f11f56-810d-4de1-9d13-69e6d4f60c58
