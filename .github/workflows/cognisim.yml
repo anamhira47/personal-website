@@ -21,7 +21,7 @@ jobs:
           fetch-depth: 0
 
       - name: Run CogniSim Tests
-        uses: CogniSim/cognisim-tests@v1
+        uses: CogniSim/cognisim-tests@v1.5
         env:
           COGNISIM_API_TOKEN: ${{ secrets.COGNISIM_API_KEY }}
         with:
